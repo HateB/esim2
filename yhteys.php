@@ -4,9 +4,10 @@ try {
 	$db=new PDO($palvelin,"phpuser","phppass");
 	//echo "Yhteys OK";
 	
-} catch (Exception $e) {
+} 
+catch (Exception $e) {
 	//echo "ERROR ".$e->getMessage();
-	echo "Tietokantaan ei saatu yhteyttä, ota yhteys ylläpitäjään."
+	echo "Tietokantaan ei saatu yhteyttä, ota yhteys ylläpitäjään.";
 }
 
 

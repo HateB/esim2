@@ -10,7 +10,7 @@ $asiakkaat=$db->query($sql);
 
 
 foreach ($asiakkaat as $rivi) {
-	echo '<tr><td>'.$rivi['etunimi'].'<tr><td>'.$rivi['sukunimi'].'<br>';
+	echo '<tr><td>'.$rivi['etunimi'].'</td><td>'.$rivi['sukunimi'].'</td></tr>';
 }
 
 echo "<TABLE>";
